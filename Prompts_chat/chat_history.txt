@@ -1,0 +1,4 @@
+{"role": "human", "content": "I want to request a refund for my order #12345."}
+{"role": "ai", "content": "Your refund request for order #12345 has been initiated. It will be processed in 3-5 business days."}
+{"role": "human", "content": "status of id 12345"}
+{"role": "ai", "content": "The refund for order **#12345** is currently being processed. As mentioned, it typically takes **3-5 business days** for the funds to appear in your account, depending on your financial institution.\n\nWould you like me to send a confirmation email to your registered address, or is there anything else I can help you with?"}
