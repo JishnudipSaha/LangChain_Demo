@@ -47,3 +47,12 @@ The notebook demonstrates a minimal chain flow:
 3. `FakeLLMChain.run(kwargs)` formats the prompt and returns the LLM response.
 
 Important logic rule: keep return types consistent between `FakeLLM.predict` and `FakeLLMChain.run` (string-to-string, or dict-to-dict access if you intentionally wrap output).
+
+## Runnable Notebook Logic (`Langchain-Runnables/langchain-mentos-zindagi.ipynb`)
+
+This notebook demonstrates a Runnable-style pipeline:
+1. A base `Runnable` interface defines `invoke(input_data)`.
+2. `FakePromptTemplate`, `FakeLLM`, and `FakeStrOutputParser` each implement `invoke`.
+3. `RunnableConnector([template, llm, parser])` passes output step-by-step through the chain.
+
+This pattern keeps prompt building, model response, and output parsing modular and composable.
