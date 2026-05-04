@@ -1,5 +1,3 @@
-from urllib import response
-
 from langchain_core import chat_history
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder

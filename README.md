@@ -39,6 +39,7 @@ The project is organized as a progressive learning roadmap:
 ### 🔴 Level 3: Advanced Orchestration
 - **`Langchain-Runnables/`**: The building blocks of LCEL.
     - **Goal**: Understand the Runnable interface and how components are piped together.
+    - **Key Files**: `runnable_sequence.py`, `runnable_parallel.py`, `runnable_passthrough.py`, `runnable_branch.py`, `runnable_lambda.py`.
 - **`Langchains/`**: Complex logic and workflows.
     - **Goal**: Build sequential and conditional chains using LCEL (Sequential, Parallel, and Conditional routing).
     - **Key Files**: `sequential_chain.py`, `conditional_chain.py`.
