@@ -37,6 +37,9 @@ The project is organized as a progressive learning roadmap:
 - **`Structured_Output/`**: Leveraging native LLM capabilities.
     - **Goal**: Use `.with_structured_output()` for high-reliability schema adherence using Pydantic and TypedDict.
     - **Key Files**: `with_structured_output_pydantic.py`.
+- **`LangChain-DomumentLoaders/`**: Loading and processing external data.
+    - **Goal**: Learn how to ingest various document types (PDFs, Directories) into LangChain for RAG-based applications.
+    - **Key Files**: `pdf_loader.py`, `directory_loader.py`.
 
 ### 🔴 Level 3: Advanced Orchestration
 - **`Langchain-Runnables/`**: The building blocks of LCEL.
@@ -60,6 +63,10 @@ python Messages/messages.py
 # Testing structured outputs and parsers
 python Output_parsers/pydanticoutputparser.py
 python Structured_Output/with_structured_output_pydantic.py
+
+# Testing Document Loaders
+python LangChain-DomumentLoaders/pdf_loader.py
+python LangChain-DomumentLoaders/directory_loader.py
 ```
 
 ### 🧠 Conversation & State
