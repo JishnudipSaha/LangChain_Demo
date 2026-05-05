@@ -1,6 +1,8 @@
 # LangChain Demo Workspace
 
-This repository is a comprehensive educational workspace demonstrating LangChain concepts, moving from basic LLM primitives to complex LCEL (LangChain Expression Language) orchestration.
+## About
+
+This project is a hands-on LangChain learning workspace that demonstrates how to build LLM applications step by step, from basic model setup to advanced LCEL orchestration patterns. It includes practical examples for prompts, messages, output parsing, structured outputs, runnables, and chain composition across Ollama, Google, and HuggingFace integrations.
 
 ## Setup
 
